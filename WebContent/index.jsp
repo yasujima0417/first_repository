@@ -32,7 +32,6 @@
                 <div>
                     <input type="submit" name="submit"  value="ログイン"/>
 
-                    <%-- ログイン済みの場合はログアウトボタンを表示 --%>
                     <% if ("login".equals(session.getAttribute("login_state"))) { %>
                     <input type="submit" name="submit" value="ログアウト"/>
                     <% }%>
